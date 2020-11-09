@@ -1,10 +1,9 @@
 .age-wrapper {
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     margin-top: 15vh;
-
-
+    align-items: center;
 }
 .age-wrapper input {
     width: 38vh;

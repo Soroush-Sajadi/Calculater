@@ -30,10 +30,7 @@ const AgeCal = () => {
   },[birthday])
   return(
     <div>
-      {days !== 0 ? <h3>You have lived {days} days so far</h3> : null}
-      {hours !== 0 ? <h3>You have lived {hours} hours so far</h3> : null}
-      {minuets !== 0 ? <h3>You have lived {minuets} minuets so far</h3> : null}
-      {seconds !== 0 ? <h3>You have lived {seconds} seconds so far</h3> : null}
+      {days !== 0 ? <p>You have lived {days} days or {hours} hours or {minuets} minuets or {seconds} seconds so far</p> : null}
     </div>
   )
 }
