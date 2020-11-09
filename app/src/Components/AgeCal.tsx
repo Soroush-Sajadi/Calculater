@@ -12,7 +12,7 @@ const AgeCal = () => {
 
   const getdifference = () => {
     const today = new Date()
-    const todayDate = (today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate()) 
+    const todayDate = (today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate()) 
     const date1 = new Date(birthday.age); 
     const date2 = new Date(todayDate);
     const differenceInTime = date2.getTime() - date1.getTime();

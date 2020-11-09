@@ -1,0 +1,20 @@
+.age-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+
+
+}
+.age-wrapper input {
+    width: 38vh;
+    font-size: 2vh;
+    border-left: none ;
+    border-right: none;
+    border-top: none;
+}
+
+.age-wrapper input:focus {
+    outline: none;
+    border-bottom: .5vh skyblue solid;
+}
